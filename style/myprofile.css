@@ -1,0 +1,134 @@
+.photo {
+    width: 160px;
+    height: 160px;
+    background-color: #c2a77e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.photo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.manubar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.manubar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.manubar ul li {
+    float: left;
+}
+
+.manubar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.manubar ul li a:hover {
+    background-color: #111;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+.circle-frame {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #d3b892;
+    margin-right: 30px;
+}
+
+.circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container {
+    margin: 10px 0;
+}
+
+.choose-language {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#button-cn,
+#button-en,
+#button-jp {
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+
+#button-cn:hover,
+#button-en:hover,
+#button-jp:hover {
+    background-color: #f684b7;
+    cursor: pointer;
+    /* 設置滑鼠指針為手指形狀 */
+}
+
+.introduce {
+    margin: 30px auto;
+    text-align: justify;
+    /* 設置文本對齊方式為兩端對齊 */
+    max-width: 800px;
+    width: 100%;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    /* 設置字體為微軟正黑體 */
+    font-size: 18px;
+    /* 設置字型大小 */
+    line-height: 1.6;
+    /* 設置行高 */
+    letter-spacing: 0.5px;
+    /* 設置字母間距 */
+    word-spacing: 1px;
+    /* 設置單詞間距 */
+}
